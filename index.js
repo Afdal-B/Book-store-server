@@ -8,7 +8,7 @@ const app = express();
 app.use(express.json());
 app.use(
   cors({
-    origin: "https://book-store-1waqnxlln-afdal-bouraimas-projects.vercel.app",
+    origin: "https://bookstore-6076.onrender.com",
     methods: ["POST", "GET", "PUT", "DELETE"],
     allowedHeaders: ["Content-Type"],
   })
